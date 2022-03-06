@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(190, 180, 180);
+  color: #54379E ;
+  font-family: 'Impact', fantasy;
+  letter-spacing: 1.5px;
+
+}
+
+
+h1, h2, h3 {
+
+  /*group selector*/
+}
+
+
+h1 {
+  font-family: fantasy;monospace: 
+  font-weight: 150;
+  letter-spacing: 10px;
+  font-size: 60px;
+  text-align: center;
+  text-decoration: ;
+}
+h2 {
+  color: #4012B4;
+  font-size: ;
+  font-weight: ;
+}
+a{
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+a:hover {
+  /* when i put the mouse on the link it changes color*/
+  color:rgb(135,112,188);
+  font-size: 19px;
+}
+.container {
+  width: 700px;
+  margin: 30px auto;
+}
+@media (max-width: 420px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+@media(max-width:  720px) {
+  .container {
+    width: 200px;
+    }
+}
+.card-white {
+  background-color: white ;
+  padding:40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1) ;
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+/*use id or class to select a specific part(begining with # or.) .element-design*/
+.img-circle{
+  border-radius:  60%;
+}
+.btn-color
+{
+  background-color: #4012B4;
+  color: white ;
+  padding: 10px 10px;
+  border-radius: 4px;
+}
+.btn-color: hover {
+  background-color: white ;
+  color: #4012B4;
+}
+.link-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.link-inline li{
+  display: inline;
+  text-align: center;
+  background-color: #4012B4;
+  padding: 2px 20px;
+  border-radius: 10px;
+  margin: 15px;
+}
+#introduction p{
+  margin-bottom: 35px;
+}
